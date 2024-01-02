@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+div{
+    height: 600px;
+    width: 1240px;
+    background-color: rgba(250, 235, 215, 0.65);
+}
+h3{
+    color: #b03737;
+    font-size: 30px;
+    font-style: italic;
+}
+.img1{
+    margin-right: 10px;
+    float: left;
+    width: 200px;
+    height: 330px;
+    border-radius: 30px;
+}

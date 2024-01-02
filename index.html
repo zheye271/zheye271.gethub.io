@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #parent{
+      position: absolute;
+      height: 2160px;
+      width: 1536px;
+      left: 50%;
+      margin-left: -768px;
+    }
+    #div1{
+      width:1440px;
+      height:100px;
+      margin-left: 48px;
+    }
+    #div2{
+      width:1440px;
+      margin-left: 48px;
+      height:40px;
+      background-color: rgba(6, 49, 61, 0.8);
+    }
+    #div3{
+      width:1440px;
+      margin-left: 48px;
+      height:562px;
+      background-image: url("image/title.jpg");
+      background-size: 100%;
+    }
+    #div4{
+      width:1440px;
+      margin-left: 48px;
+      margin-top: 32px;
+      height:400px;
+      background-color: #ffffff;
+    }
+    #div5{
+      width:1440px;
+      margin-left: 48px;
+      height:650px;
+      background-color: #ffffff;
+    }
+    #div6{
+      width:1440px;
+      margin-left: 48px;
+      height:400px;
+      background-image: url("背景.png");
+      background-size:1440px 400px;
+      background-repeat: no-repeat;
+    }
+    #div5 div{
+      display: inline-block;
+      height: 300px;
+      width:300px;
+      margin-left: 100px;
+      border-radius: 150px;
+    }
+    .z img{
+      height: 100px;
+      width: 100px;
+      margin-left: 100px;
+      border-radius: 50px;
+    }
+    .d1{
+      display: inline-block;
+      height: 40px;
+      width: 154px;
+      overflow: auto;
+      text-align: center;
+      line-height: 40px;
+      font-family: 华文楷体;
+    }
+    .d1:hover{
+      box-shadow: 2px 0px 8px 0px #000;
+    }
+    #div2 div:first-child{
+      margin-left:180px;
+    }
+    a{
+      text-decoration: none;
+      width: 80px;
+      height: 40px;
+      color: rgb(255, 255, 255);
+    }
+    .introduce{
+      width: 800px;
+      text-align: justify;
+      text-indent: 2em;
+      font-family: 华文行楷;
+      font-size: 20px;
+      float: left;
+      margin-top: 40px;
+    }
+    #div div{
+      transition: all 1s linear;
+    }
+    #div5 div:hover{
+      transform: perspective(800px) rotateX(30deg);
+    }
+
+  </style>
+</head>
+<body>
+<div id="parent">
+  <div id="div1">
+    <div class="z">
+      <img src="image/logofirst.jpg">
+    </div>
+  </div>
+  <div id="div2">
+    <div class="d1"><a herf="首页.html">首页</a></div>
+    <div class="d1"><a href="立冬.html">立冬</a></div>
+    <div class="d1"><a href="小雪.html">小雪</a></div>
+    <div class="d1"><a href="大雪.html">大雪</a></div>
+    <div class="d1"><a href="冬至.html">冬至</a></div>
+    <div class="d1"><a href="小寒.html">小寒</a></div>
+    <div class="d1"><a href="大寒.html">大寒</a></div>
+  </div>
+  <div id="div3"></div>
+  <div id="div4">
+    <p style="text-align: center;font-size: 25px;font-family: 华文行楷;display: inline-block;width: 200px;height: 40px;line-height: 40px;margin-left: -600px;margin-top: -10px;border: 2px solid">节气</p>
+    <img src="二十四节气.png" style="width:280px;height:330px;float: left;margin-left: 150px;
+    margin-right: 10px;border-radius: 90px">
+
+    <p class="introduce">节气，是干支历中表示自然节律变化以及确立“十二月建”（月令）的特定节令。
+      廿四个节气分别为：立春、雨水、惊蛰、春分、清明、谷雨、立夏、小满、芒种、夏至、小暑、大暑、立秋、处暑、白露、秋分、
+      寒露、霜降、立冬、小雪、大雪、冬至、小寒、大寒。廿四节气与干支以及八卦等是联系在一起的，有着久远的历史源头。
+      在历史发展中廿四节气被列入农历，成为农历的一个重要部分。
+      “廿四节气”是上古农耕文明的产物，它在我国传统农耕社会中占有极其重要的位置，
+      农耕生产与大自然的节律息息相关，它是上古先民顺应农时，通过观察天体运行，认知一岁中时候、
+      气候、物候等方面变化规律所形成的知识体系。它科学地揭示了天文气象变化的规律，将天文、农事、
+      物候和民俗实现了巧妙的结合，衍生了大量与之相关的岁时节令文化。
+      二十四节气于2016年11月入选联合国教科文组织人类非物质文化遗产代表作名录。</p>
+    <div style="height: 400px;width: 200px;position: absolute;right: 0"></div>
+  </div>
+  <div id="div5">
+    <p style="font-family: 华文行楷;text-align:center;font-size: 25px;display: inline-block;width: 200px;height: 40px;line-height: 40px;border: 2px solid;position: absolute;top: 1050px;left: 692px">冬日节气</p>
+    <div><a href="立冬.html"><img src="image/winterfirst.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+    <div><a href="小雪.html"><img src="image/wintersecond.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+    <div><a href="大雪.html"><img src="image/wintertired.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+    <div><a href="冬至.html"><img src="image/winterfurth.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+    <div><a href="小寒.html"><img src="image/winterfive.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+    <div><a href="大寒.html"><img src="image/wintersix.jpg" style="border-radius: 150px ;width: 300px;height: 300px;background-size: contain"></a></div>
+  </div>
+  <div id="div6"></div>
+</div>
+</body>
+</html>
