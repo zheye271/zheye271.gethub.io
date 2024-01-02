@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>小雪</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #parent{
+      position: absolute;
+      height: 1220px;
+      width: 1536px;
+      left: 50%;
+      margin-left: -768px;
+    }
+    #div1{
+      width:1440px;
+      height:100px;
+      margin-left: 48px;
+    }
+    #div2{
+      width:1440px;
+      margin-left: 48px;
+      height:40px;
+      background-color: rgba(6, 49, 61, 0.8);
+    }
+    #div3{
+      width:1440px;
+      margin-left: 48px;
+      height:562px;
+      background-image: url("图片/小雪.jpg");
+      background-size: 100%;
+    }
+    #div4{
+      width:1440px;
+      height:500px;
+      margin-left: 48px;
+    }
+    #div5{
+      width: 195px;
+      height: 500px;
+      background-color: antiquewhite;
+      overflow: hidden;
+      border-right: #fadaac solid 5px;
+    }
+    iframe{
+      position: absolute;
+      margin-left: 200px;
+      margin-top: -500px;
+      margin-right: 2px;
+    }
+    #div6{
+      width:1440px;
+      height:50px;
+      background-color: rgba(0, 157, 255, 0.47);
+      margin-left: 48px;
+    }
+    .d2{
+      font-family: 华文楷体;
+      text-align: center;
+      font-size: 30px;
+      line-height: 50px;
+      color: white;
+      font-weight: bolder;
+    }
+    .z img{
+      height: 100px;
+      width: 100px;
+      margin-left: 100px;
+      border-radius: 50px;
+    }
+    .d1{
+      display: inline-block;
+      height: 40px;
+      width: 154px;
+      overflow: auto;
+      text-align: center;
+      line-height: 40px;
+      font-family: 华文楷体;
+    }
+    .d1:hover{
+      box-shadow: 2px 0px 8px 0px #000;
+    }
+    #div2 div:first-child{
+      margin-left:180px;
+    }
+    a{
+      text-decoration: none;
+      width: 80px;
+      height: 40px;
+      color: rgb(255, 255, 255);
+    }
+    h2{
+      font-size: 60px;
+      text-align: right;
+      color: #ffffff;
+      margin-bottom: 80px;
+      font-family: 华文行楷;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+    h3{
+      color: #d37a7a;
+      font-size: 30px;
+      font-style: italic;
+      margin-bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+<div id="parent">
+  <div id="div1">
+    <div class="z">
+      <img src="image/logo2.jpg">
+    </div>
+  </div>
+  <div id="div2">
+    <div class="d1"><a href="首页.html">首页</a></div>
+    <div class="d1"><a href="立冬.html">立冬</a></div>
+    <div class="d1"><a href="小雪.html">小雪</a></div>
+    <div class="d1"><a href="大雪.html">大雪</a></div>
+    <div class="d1"><a href="冬至.html">冬至</a></div>
+    <div class="d1"><a href="小寒.html">小寒</a></div>
+    <div class="d1"><a href="大寒.html">大寒</a></div>
+  </div>
+  <div id="div3"></div>
+  <div id="div4">
+    <div id="div5">
+      <h2>小雪</h2>
+      <a target="div10" href="简介/小雪简介.html"><h3>节气简介</h3></a>
+      <a target="div10" href="气象/小雪气象.html"><h3>气象变化</h3></a>
+      <a target="_blank" href="https://baike.baidu.com/item/%E5%B0%8F%E9%9B%AA/1022094"><h3>更多介绍</h3></a>
+    </div>
+    <iframe name="div10" width="1420px" height="500px" scrolling="no" frameborder="0" src="简介/小雪简介.html"></iframe>
+  </div>
+  <div id="div6">
+    <p class="d2">二十四节气</p>
+  </div>
+</div>
+</body>
+</html>
